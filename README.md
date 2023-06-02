@@ -1,6 +1,7 @@
 # PracticeLaravelReactNext
 PracticeLaravelReactNext
 
+## Version
 ```
 > php -v
 PHP 8.1.12
@@ -21,5 +22,26 @@ yarn info v1.22.15
 > yarn info react version
 yarn info v1.22.15
 18.2.0
-
 ```
+
+
+## Start server
+```
+yarn dev
+
+php artisan serv
+```
+
+
+## Build
+```
+yarn build
+```
+
+__________________________________________________
+## Pending issues
+
+ 1. フロント・バックに分離され、それぞれリソースを別々に管理している。そこまでの粒度が必要か
+ 2. docker-compose.yml 作成時、フロント・バックでファイルを分ける必要がある？　ファイル内の分岐でOK？
+
+
